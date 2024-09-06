@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="D:/RND workspace/jenkins selenium/SeleniumTest">
+        <classes>
+            <class name="assignementTests.CaseTest">
+                <methods>
+                    <include name="loginIntoApp"/>
+                    <include name="searchForCase"/>
+                    <include name="addNewParticipant"/>
+                    <include name="editAddedParticipant"/>
+                    <include name="deleteAddedParticipant"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
