@@ -37,7 +37,7 @@ public class CaseTest extends BasicSetup{
 
     @Test(priority = 2)
     public void searchForCase() throws InterruptedException {
-        homePageObjects.clickOnSearchAndView("481");
+        homePageObjects.clickOnSearchAndView("482");
     }
 
     @Test(priority = 3)
