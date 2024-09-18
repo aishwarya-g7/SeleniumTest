@@ -29,7 +29,7 @@ public class CaseTest extends BasicSetup{
     }
 
     ExtentReports extent = new ExtentReports();
-    ExtentSparkReporter spark = new ExtentSparkReporter("target/Spark.html");
+    ExtentSparkReporter spark = new ExtentSparkReporter("target/surefire-reports/Spark.html");
 
     @BeforeTest
    public void goToApplicationUrl(){
